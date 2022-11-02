@@ -1,0 +1,26 @@
+// {
+//   "development": {
+//     "username": "root",
+//     "password": "123456789",
+//     "database": "MyToDoListJS",
+//     "host": "127.0.0.1",
+//     "port": "4407",
+//     "dialect": "mysql"
+//   },
+//   "test": {
+//     "username": "root",
+//     "password": "123456789",
+//     "database": "MyToDoListJS",
+//     "host": "127.0.0.1",
+//     "port": "4407",
+//     "dialect": "mysql"
+//   },
+//   "production": {
+//     "username": "root",
+//     "password": "123456789",
+//     "database": "MyToDoListJS",
+//     "host": "127.0.0.1",
+//     "port": "4407",
+//     "dialect": "mysql"
+//   }
+// }

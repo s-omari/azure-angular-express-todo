@@ -1,0 +1,42 @@
+{
+  "name": "packt-app-service",
+  "version": "1.0.0",
+  "description": "MyToDoListJS app for Modernize Node.JS Web Apps with Azure App Service course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cd client&&npm i",
+    "start": "./node_modules/.bin/nodemon server/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimlucas/packt-app-service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dimlucas/packt-app-service/issues"
+  },
+  "homepage": "https://github.com/dimlucas/packt-app-service#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.0",
+    "body-parser": "^1.18.3",
+    "chalk": "^2.4.1",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "helmet": "^3.13.0",
+    "joi": "^13.6.0",
+    "jquery": "^3.3.1",
+    "jsonwebtoken": "^8.3.0",
+    "moment": "^2.22.2",
+    "morgan": "^1.9.0",
+    "mysql2": "^1.6.1",
+    "nodemon": "^1.18.4",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "popper": "^1.0.1",
+    "sequelize": "^4.38.0",
+    "sequelize-cli": "^4.1.1"
+  }
+}
